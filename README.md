@@ -1,4 +1,4 @@
 htg
 ===
 
-html generator
+A HTML-generating language implemented with parsec.

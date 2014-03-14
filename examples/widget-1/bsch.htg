@@ -1,0 +1,40 @@
+div:bsch rel va-m "padding:0.5em;float:left"
+	div:abs fill g-w o-3
+	div
+		div:ib rel "float:left;width:10em;"
+			["0"-"Price" "1"-"Brand" "2"-"Width" "3"-"Height"] █
+				a:row-¶. div: ta-c rel vcl-18 m-2 b-g b-2
+					div:abs fill o-7 rowbg palebg
+					div:opq
+						div: abs g-g "width:0.5em;left:0px;top:0px;bottom:0px;height:100%"
+						span "¶"
+						div: abs g-0 gp-cc gs-0 "width:1.2em;right:0.4em;top:0px;bottom:0px;height:100%;background-image:url(grey-arrow1.png);background-repeat:no-repeat"
+				█
+			form
+				div: rel ta-c 
+					input: b-1 b-g "width:90%" value="More"
+				div:ta-r rel vcl-18 m-2
+					span:"color:darkgreen". a u b !Advanced
+					div:ib rel g-button "width:3em;background-image:url(find-green2.png)". 
+						input:b-0 g-0 fill "" type="submit" value=""
+		div:ib rel b-g b-4 sub-panel "min-height:10em;max-width:20em;display:none"
+			div:abs fill o-9 hilite-bg
+			div:opq p-2 hilite
+				div:tab-0 "display:none"
+					{"10k";"10k-30k";"30k-50k";"50k-100k";"100k-200k";"200k-400k";"400k-700k";"700k-1M";">1M"}
+						{span:option-tag. a ¶}
+				div:tab-1 "display:none"
+					{"brand1";"brand2";"brand3";"brand4";"brand5";"brand6";"brand7";"brand8";"brand9";"brand10";
+					"brand11";"brand12";"brand13";"brand14";"brand15";"brand16";
+					"brand17";"brand18";"brand19";"brand20"} 
+						{span:option-tag. a ¶}
+				div:tab-2 "display:none"
+					{"5 meters";"10 meters";"15 meters";"20 meters";"25 meters";"30 meters";"35 meters";"40 meters";
+					"45 meters";"50 meters";"55 meters";"60 meters";"65 meters";"70 meters";"75 meters";"80 meters";
+					"85 meters";"90 meters";"95 meters";"100 meters"}
+						{span:option-tag. a ¶}
+				div:tab-3 "display:none"
+					{"5 inches";"10 inches";"15 inches";"20 inches";"25 inches";"30 inches";"35 inches";"40 inches";
+					"45 inches";"50 inches";"55 inches";"60 inches";"65 inches";"70 inches";"75 inches";"80 inches";
+					"85 inches";"90 inches";"95 inches";"100 inches"}
+						{span:option-tag. a ¶}

@@ -1,0 +1,219 @@
+.ta-r{
+	text-align:right;
+}
+.ta-c{
+	text-align:center;
+}
+.rel{
+	position:relative;
+}
+.abs{
+	position:absolute;
+}
+.fill{
+	position:absolute:
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+}
+
+
+
+.b-0{
+	border-width:0px;
+	border-style:none;
+}
+.b-1{
+	border-width:1px;
+	border-style:solid;
+}
+.b-2{
+	border-width:2px;
+	border-style:solid;
+}
+.b-3{
+	border-width:3px;
+	border-style:solid;
+}
+.b-4{
+	border-width:4px;
+	border-style:solid;
+}
+
+
+.b-s{
+	border-style:solid;
+}
+
+
+.b-r{
+	border-color:red;
+}
+.b-g{
+	border-color:green;
+}
+.b-b{
+	border-color:blue;
+}
+.b-c{
+	border-color:cyan;
+}
+.b-m{
+	border-color:magenta;
+}
+.b-y{
+	border-color:yellow;
+}
+.b-k{
+	border-color:black;
+}
+
+
+
+.g-r{
+	background-color:red;
+}
+.g-g{
+	background-color:green;
+}
+.g-b{
+	background-color:blue;
+}
+.g-c{
+	background-color:cyan;
+}
+.g-m{
+	background-color:magenta;
+}
+.g-y{
+	background-color:yellow;
+}
+.g-k{
+	background-color:black;
+}
+.g-w{
+	background-color:white;
+}
+.g-g0{
+	background-color:lightgreen;
+}
+.g-o{
+	background-color:orange;
+}
+.g-0{
+	background-color:transparent;
+}
+
+.g-button{
+	background-position:center center;
+	background-size:cover;
+}
+.gp-cc{
+	background-position:center center;
+}
+.gs-0{
+	background-size:contain;
+}
+.gs-1{
+	background-size:cover;
+}
+
+.vcl-20{
+	height:2em;
+	line-height:2em;
+	vertical-align:middle;
+}
+.vcl-18{
+	height:1.8em;
+	line-height:1.8em;
+	vertical-align:middle;
+}
+
+.va-m{
+	vertical-align:middle;
+}
+
+.ib{
+	display:inline-block;
+}
+.m-1{
+	margin:0.1em;
+}
+.m-2{
+	margin:0.2em;
+}
+.m-3{
+	margin:0.3em;
+}
+.m-4{
+	margin:0.4em;
+}
+.o-9{
+	opacity:0.9;
+}
+.o-8{
+	opacity:0.8;
+}
+.o-7{
+	opacity:0.7;
+}
+.o-6{
+	opacity:0.6;
+}
+.o-5{
+	opacity:0.5;
+}
+.o-4{
+	opacity:0.4;
+}
+.o-3{
+	opacity:0.3;
+}
+.o-2{
+	opacity:0.2;
+}
+.o-1{
+	opacity:0.1;
+}
+.opq{
+	opacity:0.999;
+}
+
+.p-1{
+	padding:0.1em;
+}
+.p-2{
+	padding:0.2em;
+}
+.p-3{
+	padding:0.3em;
+}
+.p-4{
+	padding:0.4em;
+}
+.p-5{
+	padding:0.5em;
+}
+.p-6{
+	padding:0.6em;
+}
+.p-7{
+	padding:0.7em;
+}
+.bsch .option-tag{
+	display:inline-block;
+	margin:0.2em;
+}
+.bsch .hilite-bg{
+	background-color:ivory;
+}
+.bsch .hilite{
+	color:darkgreen;
+}
+
+.bsch .palebg{
+	background-color:palegreen;
+}

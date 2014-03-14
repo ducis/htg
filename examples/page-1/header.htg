@@ -1,0 +1,4 @@
+div:"background-color:brown;position:relative;color:ivory;padding:2.6em"
+	"LOGO"
+	div:"float:right"
+		span "Whatever"

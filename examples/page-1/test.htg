@@ -1,0 +1,59 @@
+!<!DOCTYPE html>
+!<html>
+head
+	meta:charset="utf-8"
+	title "x"
+	style
+		!div{ margin:0.2em; }
+body:"background-color:white;width:1300px;font-size:12px;"
+	$header
+	div:"float:left;width:1050px"
+		div:"background-color:lightblue;"
+			div:"text-align:center". !search
+			3 div !................................
+			div:"text-align:center". !more▼
+		div:"border:0.1em solid blue;padding:0.4em;position:relative"
+			div:"text-align:center". !search results
+			div
+				div:"display:inline-block;color:blue". 
+					span:"padding:0.3em;background-color:blue;color:ivory". !items
+					span:"color:grey". ! | 
+					span !ABC
+					span:"color:grey". ! | 
+					span !DEF
+					span:"color:grey". ! | 
+					span !GHI
+				div:"display:inline-block;float:right;text-align:right;". "JKL"
+				div:"height:0.1em;background-color:blue;margin:0px"
+			div:"position:relative"
+				div:"float:left"
+					!Whatever....
+				div:"text-align:right"
+					input:type="checkbox"
+					!Bool1
+					input:type="checkbox"
+					!Bool2
+					input:type="checkbox"
+					!Bool3
+			div:"margin:0px". 15 div:"display:inline-block;border:0.1em solid lightblue"
+				div:"width:190px;height:150px;background-color:grey;text-align:center". "Photo"
+				div !Penguin
+				div
+					!5 years old
+					div:"float:right".!Antarctica
+				div
+					!Jerry
+					div:"float:right".!alive
+			div:"text-align:center".
+				["1""2""3""4""5""next"] 
+					!div:"display:inline-block;border:1px solid lightblue". !¶
+				div:"display:inline-block". 
+					!999 pages
+	div:"float:left;width:240px"
+		div
+			{"button";"button1";"button 2"}
+				div:"text-align:center;". div:"border:0.2em solid blue;padding:0.3em" ¶
+		["100"-"alpha" "100"-"beta" "100"-"gamma" "200"-"delta"] !div:"height:¶px;border:0.1em solid blue;padding:0.4em;text-align:center". "¶"
+	div:"height:50px;background:lightblue;width:100%;float:left"
+		!footer
+!</html>

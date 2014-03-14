@@ -1,0 +1,13 @@
+head
+	$commonhead
+body
+	$navi
+	div:"background:#CCCCCC url('cpan.png');width:320px;height:180px;margin:0px auto 0px auto"
+	form:action="s"
+		div input:entry0 to-clear "margin-left:19.1%;width:61.8%;margin-top:12px;margin-bottom:8px" autofocus="true" autocomplete="off" value="paste anything地址" name="x"
+		div:ta-c
+			["search A" "search B"] !input:text-button "font-size:large;color:brown" type="submit" value="¶" name="b"
+	div:ta-c "margin-top:10px;margin-left:100px;margin-right:100px"
+		20 div:hlt-item
+			a:href="example.html". {div:hlt-bk. ;div:hlt-pic. ; div:hlt-text hlt-text1. "item description" ; div:hlt-text hlt-text2. "selected comment" }
+	{$dialog-body1} $dialog

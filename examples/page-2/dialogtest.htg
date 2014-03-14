@@ -1,0 +1,4 @@
+head
+	$commonhead
+body
+	{div:"border:5px solid red;". 10 div "JJJJJJJJJJJJJJJJJJJJJJJ"} $dialog

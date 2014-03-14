@@ -1,0 +1,18 @@
+div: register-step0
+	form:onsubmit="reg_commit(this);return false". table:"text-align:left"
+		["会员名:"-"text"-"reg-name" 
+		"密码:"-"password"-"reg-pass" 
+		"确认密码:"-"password"-"reg-pass1"] █tr
+			td:"text-align:right". "¶"
+			td
+				input:entry0 "width:14em" type="¶" name="¶" █ 
+		tr
+			td:"text-align:right". !验证码:
+			td
+				input:entry0 "width:6em" 
+		tr
+			td
+			td input:text-button "" type="submit" value="同意协议并注册"
+		tr
+			td
+			td:style="font-size:small;". a "《somesite服务协议》"

@@ -1,0 +1,14 @@
+div:h19 l-h19 "width:100%;background-color:#666666;position:fixed;top:0px;left:0px;z-index:100". div
+	div:abs "left:0px"
+		a:href="/". span:"color:gold". █somesite,something█
+	div:ta-r abs "right:0px". form:onsubmit="login_commit(this);return false"
+		["user"-"会员名/邮箱/手机号" "pass"-"本站密码"] !input:entry1 to-clear mh01 "" name="¶" value="¶"
+		input:"margin-top:auto;margin-bottom:auto;" type="checkbox" value="remember".
+		span:"font-size:small;color:lightgrey;margin-right:0.3em". 
+			!记住我
+		["登录"] !input:text-button mh01 "background:silver" type="submit" value="¶" name="b"
+		a:"margin:0px 0.3em" href="javascript:dlg_start('.dlgc-register')". "注册"
+div:h19
+div:dialog-content-storage "display:none"
+	div:dlgc-register
+		$register

@@ -1,0 +1,30 @@
+head
+	$commonhead
+body
+	$navi
+	div:"position:relative"
+		div:"color:brown;font-size:xx-large"
+			"THIN LOGO"
+			span:"color:grey;font-size:large"
+				"titleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+		div:"right:61.8%;margin-right:267.4px;left:0px;position:absolute"
+			div:"font-size:x-large" !beta(10)
+			div:"width:100%;height:80px;background-color:grey". !tag-cloud
+			div:cmt-item. div:text-entry "width:100%;height:100px". !click to write yours here
+			10 div:cmt-item
+				div !汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字
+				div:"text-align:right"
+					span !2013年11月06日
+					span !Jerry
+		div:"width:700px;margin-left:-267.4px;left:38.2%;position:absolute"
+			{"long sentence";br;"longer senctence";br;"even longer sentence"}
+		div:"left:38.2%;margin-left:432.6px;right:0px;position:absolute"
+			div:"font-size:x-large"
+			div:"width:100%;height:80px;background-color:grey". !tag-cloud
+			div:cmt-item. div:text-entry "width:100%;height:100px". !click to write yours here
+			10 div:cmt-item
+				div !汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字汉字
+				div:"text-align:right"
+					span !2013年11月03日
+					span !Tom
+			

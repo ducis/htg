@@ -1,0 +1,9 @@
+head
+	$commonhead
+body
+	2000 div:"display:inline-block". a:"color:green" href="http://www.baidu.com". 'ssssssssssssssssssssssssssssssssssss'
+	div:dialog-control
+		div:dialog-mask "background-color:white; opacity:0.2"
+		div:dialog.	div:dialog-inner.
+			div:"border:5px solid red;". 
+				10 div "JJJJJJJJJJJJJJJJJJJJJJJ"

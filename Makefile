@@ -10,3 +10,6 @@ htgTest1:
 	runghc htgTest1.hs < test1.htg | perl html5.pl | tee test1.htm \
 		| $(TIDY) >test1a.htm
 .always:
+
+test:
+	cat *.htg | runghc htg.hs

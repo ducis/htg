@@ -72,7 +72,7 @@ enclosed [l,r] = between (char l<*spaces) (spaces*>char r)
 literal = choice $ (char '!' *> many (noneOf "\n")):[between (char l) (char r) (many $ noneOf [l,r])|
 	[l,r]<-["><","\"\"","''","██"]]
 
-argList = ArgList <$> enclosed "[]" (sepBy (sepBy1 literal (try $ spaces*>char '-'<*spaces)) spaces)
+argList = ArgList <$> enclosed "[]" (sepBy (sepBy1 literal (try $ spaces*>char '-'<*spaces)) spaces) -- Don't try to eliminate the case ["1" ] again! It's not easy!
 
 coefficient = Coefficient <$> nat
 
